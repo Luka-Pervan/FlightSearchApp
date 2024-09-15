@@ -4,10 +4,10 @@ import { iataCodes, BASE_URL } from "./constants";
 
 function FlightSearch() {
   const [formData, setFormData] = useState({
-    origin: "SYD",
-    destination: "BKK",
-    departureDate: "2024-09-15",
-    returnDate: "2024-09-16",
+    origin: "",
+    destination: "",
+    departureDate: "",
+    returnDate: "",
     passengers: 1,
     currency: "EUR",
   });

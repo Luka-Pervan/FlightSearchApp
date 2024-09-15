@@ -1,8 +1,7 @@
 export const BASE_URL = "http://localhost:5103/api";
+//export const BASE_URL ="https://flightsearchapi2024091516384.azurewebsites.net/api";
 
 export const iataCodes = [
-  { code: "Ravca", airport: "John F. Kennedy International, New York, USA" },
-
   // North America
   { code: "JFK", airport: "John F. Kennedy International, New York, USA" },
   { code: "LAX", airport: "Los Angeles International, Los Angeles, USA" },
